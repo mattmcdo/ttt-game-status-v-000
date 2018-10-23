@@ -37,9 +37,10 @@ def over?(board)
 draw?(board) || won?(board)
   end
 
-def winner(board, token)
+def winner(board)
 won?(board)
 else
   !over?(board)
 end
+winner?(board[0])
 end
