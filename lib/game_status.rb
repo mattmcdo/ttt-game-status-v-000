@@ -38,5 +38,4 @@ draw?(board) || won?(board)
   end
 
 def won?(board)
-  win_combo == []
 end
