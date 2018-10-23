@@ -42,6 +42,6 @@ if   won?(board)
   "X" || "O"
 else
   !over?(board)
-end
 
+end
 end
