@@ -38,7 +38,7 @@ draw?(board) || won?(board)
   end
 
 def winner(board)
-token == "X" || token == "O"
+token = "X" || token = "O"
 if   won?(board)
   token
 else
