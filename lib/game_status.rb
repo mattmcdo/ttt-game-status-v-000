@@ -38,7 +38,6 @@ draw?(board) || won?(board)
   end
 
 def winner(board, token)
-
 if   won?(board)
   token
 else
