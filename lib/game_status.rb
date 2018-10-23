@@ -41,7 +41,6 @@ def winner(board)
 token == "X" || token == "O"
 if   won?(board)
   token
-
 else
   !over?(board)
 
